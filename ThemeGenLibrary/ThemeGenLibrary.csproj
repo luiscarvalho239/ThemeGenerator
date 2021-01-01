@@ -1,0 +1,117 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Pages\bootstrap\assets\brand\bootstrap-logo-white.svg" />
+    <None Remove="Assets\Pages\bootstrap\assets\brand\bootstrap-logo.svg" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.min.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.rtl.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.rtl.min.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.min.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.rtl.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.rtl.min.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.min.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.rtl.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.rtl.min.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap.min.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap.rtl.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\css\bootstrap.rtl.min.css" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\js\bootstrap.bundle.js" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\js\bootstrap.bundle.min.js" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\js\bootstrap.esm.js" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\js\bootstrap.esm.min.js" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\js\bootstrap.js" />
+    <None Remove="Assets\Pages\bootstrap\assets\dist\js\bootstrap.min.js" />
+    <None Remove="Assets\Pages\bootstrap\blog\blog.css" />
+    <None Remove="Assets\Pages\bootstrap\blog\blog.rtl.css" />
+    <None Remove="Assets\Pages\bootstrap\blog\index.html" />
+    <None Remove="Assets\Pages\mdl\entry.html" />
+    <None Remove="Assets\Pages\mdl\images\android-desktop.png" />
+    <None Remove="Assets\Pages\mdl\images\avatar.png" />
+    <None Remove="Assets\Pages\mdl\images\bg_1024.jpg" />
+    <None Remove="Assets\Pages\mdl\images\bg_2048.jpg" />
+    <None Remove="Assets\Pages\mdl\images\bg_2880.jpg" />
+    <None Remove="Assets\Pages\mdl\images\co1.jpg" />
+    <None Remove="Assets\Pages\mdl\images\co2.jpg" />
+    <None Remove="Assets\Pages\mdl\images\coffee.jpg" />
+    <None Remove="Assets\Pages\mdl\images\favicon.png" />
+    <None Remove="Assets\Pages\mdl\images\ios-desktop.png" />
+    <None Remove="Assets\Pages\mdl\images\logo.png" />
+    <None Remove="Assets\Pages\mdl\images\road.jpg" />
+    <None Remove="Assets\Pages\mdl\images\road_big.jpg" />
+    <None Remove="Assets\Pages\mdl\images\shopping.jpg" />
+    <None Remove="Assets\Pages\mdl\index.html" />
+    <None Remove="Assets\Pages\mdl\styles.css" />
+    <None Remove="Assets\Pages\mytemplate.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Pages\bootstrap\assets\brand\bootstrap-logo-white.svg" />
+    <Content Include="Assets\Pages\bootstrap\assets\brand\bootstrap-logo.svg" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.rtl.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.bundle.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.esm.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.esm.min.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.min.js" />
+    <Content Include="Assets\Pages\bootstrap\blog\blog.css" />
+    <Content Include="Assets\Pages\bootstrap\blog\blog.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\blog\index.html" />
+    <Content Include="Assets\Pages\mdl\entry.html" />
+    <Content Include="Assets\Pages\mdl\images\android-desktop.png" />
+    <Content Include="Assets\Pages\mdl\images\avatar.png" />
+    <Content Include="Assets\Pages\mdl\images\bg_1024.jpg" />
+    <Content Include="Assets\Pages\mdl\images\bg_2048.jpg" />
+    <Content Include="Assets\Pages\mdl\images\bg_2880.jpg" />
+    <Content Include="Assets\Pages\mdl\images\co1.jpg" />
+    <Content Include="Assets\Pages\mdl\images\co2.jpg" />
+    <Content Include="Assets\Pages\mdl\images\coffee.jpg" />
+    <Content Include="Assets\Pages\mdl\images\favicon.png" />
+    <Content Include="Assets\Pages\mdl\images\ios-desktop.png" />
+    <Content Include="Assets\Pages\mdl\images\logo.png" />
+    <Content Include="Assets\Pages\mdl\images\road.jpg" />
+    <Content Include="Assets\Pages\mdl\images\road_big.jpg" />
+    <Content Include="Assets\Pages\mdl\images\shopping.jpg" />
+    <Content Include="Assets\Pages\mdl\index.html" />
+    <Content Include="Assets\Pages\mdl\styles.css" />
+    <Content Include="Assets\Pages\mytemplate.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\ref_icon.png" />
+  </ItemGroup>
+
+</Project>

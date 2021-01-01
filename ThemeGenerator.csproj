@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{126E8066-DD30-4B21-B5F5-BA51CEDFC346}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ThemeGenerator</RootNamespace>
+    <AssemblyName>ThemeGenerator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.664.37, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.664.37\lib\net462\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.664.37, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.664.37\lib\net462\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.664.37, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.WebView2.1.0.664.37\lib\net462\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Frameworks.cs" />
+    <Compile Include="FormTheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTheme.Designer.cs">
+      <DependentUpon>FormTheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormTheme.resx">
+      <DependentUpon>FormTheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.min.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.rtl.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.bundle.js.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.esm.js.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.js.map" />
+    <None Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.min.js.map" />
+    <None Include="Assets\Pages\mdl\LICENSE" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Assets\Pages\bootstrap\assets\brand\bootstrap-logo-white.svg" />
+    <Content Include="Assets\Pages\bootstrap\assets\brand\bootstrap-logo.svg" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\css\bootstrap.rtl.min.css" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.bundle.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.esm.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.esm.min.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.js" />
+    <Content Include="Assets\Pages\bootstrap\assets\dist\js\bootstrap.min.js" />
+    <Content Include="Assets\Pages\bootstrap\blog\blog.css" />
+    <Content Include="Assets\Pages\bootstrap\blog\blog.rtl.css" />
+    <Content Include="Assets\Pages\bootstrap\blog\index.html" />
+    <Content Include="Assets\Pages\mdl\entry.html" />
+    <Content Include="Assets\Pages\mdl\images\android-desktop.png" />
+    <Content Include="Assets\Pages\mdl\images\avatar.png" />
+    <Content Include="Assets\Pages\mdl\images\bg_1024.jpg" />
+    <Content Include="Assets\Pages\mdl\images\bg_2048.jpg" />
+    <Content Include="Assets\Pages\mdl\images\bg_2880.jpg" />
+    <Content Include="Assets\Pages\mdl\images\co1.jpg" />
+    <Content Include="Assets\Pages\mdl\images\co2.jpg" />
+    <Content Include="Assets\Pages\mdl\images\coffee.jpg" />
+    <Content Include="Assets\Pages\mdl\images\favicon.png" />
+    <Content Include="Assets\Pages\mdl\images\ios-desktop.png" />
+    <Content Include="Assets\Pages\mdl\images\logo.png" />
+    <Content Include="Assets\Pages\mdl\images\road.jpg" />
+    <Content Include="Assets\Pages\mdl\images\road_big.jpg" />
+    <Content Include="Assets\Pages\mdl\images\shopping.jpg" />
+    <Content Include="Assets\Pages\mdl\index.html" />
+    <Content Include="Assets\Pages\mdl\styles.css" />
+    <Content Include="Assets\Pages\mytemplate.html" />
+    <None Include="Resources\ref_icon.png" />
+    <None Include="Resources\ref_icon_usmall.png" />
+    <None Include="Resources\ref_icon_small.png" />
+    <None Include="ThemeGenLibrary\Assets\Images\ref_icon.png" />
+    <None Include="Resources\cpu_wireframe-wallpaper-1920x1080.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Microsoft.Web.WebView2.1.0.664.37\build\Microsoft.Web.WebView2.targets" Condition="Exists('packages\Microsoft.Web.WebView2.1.0.664.37\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.Web.WebView2.1.0.664.37\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Web.WebView2.1.0.664.37\build\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+</Project>

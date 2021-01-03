@@ -109,7 +109,7 @@ namespace ThemeGenerator
             this.gbOptions.Controls.Add(this.tableLayoutPanel3);
             this.gbOptions.Location = new System.Drawing.Point(3, 437);
             this.gbOptions.Name = "gbOptions";
-            this.gbOptions.Size = new System.Drawing.Size(1113, 291);
+            this.gbOptions.Size = new System.Drawing.Size(1114, 292);
             this.gbOptions.TabIndex = 4;
             this.gbOptions.TabStop = false;
             this.gbOptions.Text = "Options";
@@ -141,7 +141,7 @@ namespace ThemeGenerator
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.387755F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.14286F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.36735F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1101, 255);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1102, 256);
             this.tableLayoutPanel3.TabIndex = 12;
             // 
             // tableLayoutPanel6
@@ -158,7 +158,7 @@ namespace ThemeGenerator
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(269, 42);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(269, 43);
             this.tableLayoutPanel6.TabIndex = 15;
             // 
             // btnAddJSLink
@@ -168,7 +168,7 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAddJSLink.Location = new System.Drawing.Point(218, 3);
             this.btnAddJSLink.Name = "btnAddJSLink";
-            this.btnAddJSLink.Size = new System.Drawing.Size(48, 36);
+            this.btnAddJSLink.Size = new System.Drawing.Size(48, 37);
             this.btnAddJSLink.TabIndex = 2;
             this.btnAddJSLink.Text = "Add";
             this.btnAddJSLink.UseVisualStyleBackColor = true;
@@ -190,7 +190,7 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRenderToWebBrowser.Location = new System.Drawing.Point(828, 3);
             this.btnRenderToWebBrowser.Name = "btnRenderToWebBrowser";
-            this.btnRenderToWebBrowser.Size = new System.Drawing.Size(270, 31);
+            this.btnRenderToWebBrowser.Size = new System.Drawing.Size(271, 31);
             this.btnRenderToWebBrowser.TabIndex = 5;
             this.btnRenderToWebBrowser.Text = "Preview";
             this.btnRenderToWebBrowser.UseVisualStyleBackColor = true;
@@ -292,14 +292,14 @@ namespace ThemeGenerator
             this.panel1.Location = new System.Drawing.Point(553, 40);
             this.panel1.Name = "panel1";
             this.tableLayoutPanel3.SetRowSpan(this.panel1, 3);
-            this.panel1.Size = new System.Drawing.Size(545, 212);
+            this.panel1.Size = new System.Drawing.Size(546, 213);
             this.panel1.TabIndex = 13;
             // 
             // chbActivateWebServer
             // 
             this.chbActivateWebServer.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.chbActivateWebServer.AutoSize = true;
-            this.chbActivateWebServer.Location = new System.Drawing.Point(389, 82);
+            this.chbActivateWebServer.Location = new System.Drawing.Point(390, 82);
             this.chbActivateWebServer.Name = "chbActivateWebServer";
             this.chbActivateWebServer.Size = new System.Drawing.Size(138, 17);
             this.chbActivateWebServer.TabIndex = 14;
@@ -322,7 +322,7 @@ namespace ThemeGenerator
             // btnOpenBrowser
             // 
             this.btnOpenBrowser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOpenBrowser.Location = new System.Drawing.Point(302, 19);
+            this.btnOpenBrowser.Location = new System.Drawing.Point(303, 19);
             this.btnOpenBrowser.Name = "btnOpenBrowser";
             this.btnOpenBrowser.Size = new System.Drawing.Size(225, 36);
             this.btnOpenBrowser.TabIndex = 12;
@@ -337,9 +337,9 @@ namespace ThemeGenerator
             this.groupBox1.Controls.Add(this.btnTempDemo2);
             this.groupBox1.Controls.Add(this.btnDefTemp);
             this.groupBox1.Controls.Add(this.btnTempDemo1);
-            this.groupBox1.Location = new System.Drawing.Point(11, 126);
+            this.groupBox1.Location = new System.Drawing.Point(11, 135);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(523, 76);
+            this.groupBox1.Size = new System.Drawing.Size(524, 68);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Templates";
@@ -347,7 +347,7 @@ namespace ThemeGenerator
             // btnTempDemo2
             // 
             this.btnTempDemo2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnTempDemo2.Location = new System.Drawing.Point(323, 27);
+            this.btnTempDemo2.Location = new System.Drawing.Point(324, 19);
             this.btnTempDemo2.Name = "btnTempDemo2";
             this.btnTempDemo2.Size = new System.Drawing.Size(194, 41);
             this.btnTempDemo2.TabIndex = 11;
@@ -358,7 +358,7 @@ namespace ThemeGenerator
             // btnDefTemp
             // 
             this.btnDefTemp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDefTemp.Location = new System.Drawing.Point(8, 27);
+            this.btnDefTemp.Location = new System.Drawing.Point(8, 19);
             this.btnDefTemp.Name = "btnDefTemp";
             this.btnDefTemp.Size = new System.Drawing.Size(184, 41);
             this.btnDefTemp.TabIndex = 10;
@@ -369,7 +369,7 @@ namespace ThemeGenerator
             // btnTempDemo1
             // 
             this.btnTempDemo1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnTempDemo1.Location = new System.Drawing.Point(203, 27);
+            this.btnTempDemo1.Location = new System.Drawing.Point(204, 19);
             this.btnTempDemo1.Name = "btnTempDemo1";
             this.btnTempDemo1.Size = new System.Drawing.Size(108, 41);
             this.btnTempDemo1.TabIndex = 9;
@@ -414,7 +414,7 @@ namespace ThemeGenerator
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(269, 42);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(269, 43);
             this.tableLayoutPanel5.TabIndex = 14;
             // 
             // tbAddCSSLink
@@ -433,7 +433,7 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAddCSSLink.Location = new System.Drawing.Point(218, 3);
             this.btnAddCSSLink.Name = "btnAddCSSLink";
-            this.btnAddCSSLink.Size = new System.Drawing.Size(48, 36);
+            this.btnAddCSSLink.Size = new System.Drawing.Size(48, 37);
             this.btnAddCSSLink.TabIndex = 1;
             this.btnAddCSSLink.Text = "Add";
             this.btnAddCSSLink.UseVisualStyleBackColor = true;
@@ -442,18 +442,15 @@ namespace ThemeGenerator
             // tbUrl
             // 
             this.tbUrl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbUrl.Location = new System.Drawing.Point(169, 10);
+            this.tbUrl.Location = new System.Drawing.Point(170, 10);
             this.tbUrl.Name = "tbUrl";
-            this.tbUrl.Size = new System.Drawing.Size(884, 20);
+            this.tbUrl.Size = new System.Drawing.Size(885, 20);
             this.tbUrl.TabIndex = 6;
             this.tbUrl.TextChanged += new System.EventHandler(this.tbUrl_TextChanged);
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Silver;
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -461,14 +458,15 @@ namespace ThemeGenerator
             this.tableLayoutPanel1.Controls.Add(this.gbOptions, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.webView, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.tbCode, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.355932F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 53.10735F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.50848F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1119, 731);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1120, 732);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
             // tableLayoutPanel2
@@ -488,7 +486,7 @@ namespace ThemeGenerator
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1113, 40);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1114, 40);
             this.tableLayoutPanel2.TabIndex = 8;
             // 
             // btnGo
@@ -496,9 +494,9 @@ namespace ThemeGenerator
             this.btnGo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGo.Location = new System.Drawing.Point(1059, 3);
+            this.btnGo.Location = new System.Drawing.Point(1061, 3);
             this.btnGo.Name = "btnGo";
-            this.btnGo.Size = new System.Drawing.Size(51, 34);
+            this.btnGo.Size = new System.Drawing.Size(50, 34);
             this.btnGo.TabIndex = 7;
             this.btnGo.Text = "Go";
             this.btnGo.UseVisualStyleBackColor = true;
@@ -506,6 +504,7 @@ namespace ThemeGenerator
             // 
             // tableLayoutPanel7
             // 
+            this.tableLayoutPanel7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel7.ColumnCount = 3;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -517,7 +516,7 @@ namespace ThemeGenerator
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(157, 33);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(161, 33);
             this.tableLayoutPanel7.TabIndex = 8;
             // 
             // btnRefNavigation
@@ -526,9 +525,9 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRefNavigation.Image = global::ThemeGenerator.Properties.Resources.ref_icon_usmall;
-            this.btnRefNavigation.Location = new System.Drawing.Point(107, 3);
+            this.btnRefNavigation.Location = new System.Drawing.Point(109, 3);
             this.btnRefNavigation.Name = "btnRefNavigation";
-            this.btnRefNavigation.Size = new System.Drawing.Size(47, 27);
+            this.btnRefNavigation.Size = new System.Drawing.Size(49, 27);
             this.btnRefNavigation.TabIndex = 11;
             this.btnRefNavigation.UseVisualStyleBackColor = true;
             this.btnRefNavigation.Click += new System.EventHandler(this.btnRefNavigation_Click);
@@ -538,9 +537,9 @@ namespace ThemeGenerator
             this.btnForwardNavigation.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnForwardNavigation.Location = new System.Drawing.Point(55, 3);
+            this.btnForwardNavigation.Location = new System.Drawing.Point(56, 3);
             this.btnForwardNavigation.Name = "btnForwardNavigation";
-            this.btnForwardNavigation.Size = new System.Drawing.Size(46, 27);
+            this.btnForwardNavigation.Size = new System.Drawing.Size(47, 27);
             this.btnForwardNavigation.TabIndex = 10;
             this.btnForwardNavigation.Text = ">";
             this.btnForwardNavigation.UseVisualStyleBackColor = true;
@@ -553,7 +552,7 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBackNavigation.Location = new System.Drawing.Point(3, 3);
             this.btnBackNavigation.Name = "btnBackNavigation";
-            this.btnBackNavigation.Size = new System.Drawing.Size(46, 27);
+            this.btnBackNavigation.Size = new System.Drawing.Size(47, 27);
             this.btnBackNavigation.TabIndex = 9;
             this.btnBackNavigation.Text = "<";
             this.btnBackNavigation.UseVisualStyleBackColor = true;
@@ -565,7 +564,7 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.webView.CreationProperties = null;
-            this.webView.Location = new System.Drawing.Point(562, 49);
+            this.webView.Location = new System.Drawing.Point(563, 49);
             this.webView.Name = "webView";
             this.webView.Size = new System.Drawing.Size(554, 382);
             this.webView.TabIndex = 9;
@@ -580,15 +579,14 @@ namespace ThemeGenerator
             this.tbCode.DetectUrls = false;
             this.tbCode.Location = new System.Drawing.Point(3, 49);
             this.tbCode.Name = "tbCode";
-            this.tbCode.Size = new System.Drawing.Size(553, 382);
+            this.tbCode.Size = new System.Drawing.Size(554, 382);
             this.tbCode.TabIndex = 10;
             this.tbCode.Text = "";
             this.tbCode.TextChanged += new System.EventHandler(this.tbCode_TextChanged);
             // 
             // FormTheme
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1120, 732);
             this.Controls.Add(this.tableLayoutPanel1);

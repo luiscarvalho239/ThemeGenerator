@@ -82,10 +82,10 @@ namespace ThemeGenerator
             // 
             this.lblCurFramework.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCurFramework.AutoSize = true;
-            this.lblCurFramework.Location = new System.Drawing.Point(3, 8);
+            this.lblCurFramework.Location = new System.Drawing.Point(3, 9);
             this.lblCurFramework.Name = "lblCurFramework";
             this.lblCurFramework.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblCurFramework.Size = new System.Drawing.Size(100, 13);
+            this.lblCurFramework.Size = new System.Drawing.Size(102, 13);
             this.lblCurFramework.TabIndex = 2;
             this.lblCurFramework.Text = "Current Framework:";
             // 
@@ -94,9 +94,9 @@ namespace ThemeGenerator
             this.cbFrameworks.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cbFrameworks.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbFrameworks.FormattingEnabled = true;
-            this.cbFrameworks.Location = new System.Drawing.Point(109, 4);
+            this.cbFrameworks.Location = new System.Drawing.Point(111, 5);
             this.cbFrameworks.Name = "cbFrameworks";
-            this.cbFrameworks.Size = new System.Drawing.Size(420, 21);
+            this.cbFrameworks.Size = new System.Drawing.Size(430, 21);
             this.cbFrameworks.TabIndex = 3;
             this.cbFrameworks.SelectedIndexChanged += new System.EventHandler(this.cbFrameworks_SelectedIndexChanged);
             // 
@@ -107,9 +107,9 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.SetColumnSpan(this.gbOptions, 2);
             this.gbOptions.Controls.Add(this.tableLayoutPanel3);
-            this.gbOptions.Location = new System.Drawing.Point(3, 424);
+            this.gbOptions.Location = new System.Drawing.Point(3, 437);
             this.gbOptions.Name = "gbOptions";
-            this.gbOptions.Size = new System.Drawing.Size(1090, 281);
+            this.gbOptions.Size = new System.Drawing.Size(1113, 291);
             this.gbOptions.TabIndex = 4;
             this.gbOptions.TabStop = false;
             this.gbOptions.Text = "Options";
@@ -141,7 +141,7 @@ namespace ThemeGenerator
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.387755F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.14286F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.36735F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1078, 245);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1101, 255);
             this.tableLayoutPanel3.TabIndex = 12;
             // 
             // tableLayoutPanel6
@@ -154,11 +154,11 @@ namespace ThemeGenerator
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel6.Controls.Add(this.btnAddJSLink, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.tbAddJSLink, 0, 0);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(272, 202);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(278, 210);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(263, 40);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(269, 42);
             this.tableLayoutPanel6.TabIndex = 15;
             // 
             // btnAddJSLink
@@ -166,9 +166,9 @@ namespace ThemeGenerator
             this.btnAddJSLink.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddJSLink.Location = new System.Drawing.Point(213, 3);
+            this.btnAddJSLink.Location = new System.Drawing.Point(218, 3);
             this.btnAddJSLink.Name = "btnAddJSLink";
-            this.btnAddJSLink.Size = new System.Drawing.Size(47, 34);
+            this.btnAddJSLink.Size = new System.Drawing.Size(48, 36);
             this.btnAddJSLink.TabIndex = 2;
             this.btnAddJSLink.Text = "Add";
             this.btnAddJSLink.UseVisualStyleBackColor = true;
@@ -177,9 +177,9 @@ namespace ThemeGenerator
             // tbAddJSLink
             // 
             this.tbAddJSLink.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbAddJSLink.Location = new System.Drawing.Point(3, 10);
+            this.tbAddJSLink.Location = new System.Drawing.Point(3, 11);
             this.tbAddJSLink.Name = "tbAddJSLink";
-            this.tbAddJSLink.Size = new System.Drawing.Size(204, 20);
+            this.tbAddJSLink.Size = new System.Drawing.Size(209, 20);
             this.tbAddJSLink.TabIndex = 1;
             this.tbAddJSLink.TextChanged += new System.EventHandler(this.tbAddJSLink_TextChanged);
             // 
@@ -188,9 +188,9 @@ namespace ThemeGenerator
             this.btnRenderToWebBrowser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRenderToWebBrowser.Location = new System.Drawing.Point(810, 3);
+            this.btnRenderToWebBrowser.Location = new System.Drawing.Point(828, 3);
             this.btnRenderToWebBrowser.Name = "btnRenderToWebBrowser";
-            this.btnRenderToWebBrowser.Size = new System.Drawing.Size(265, 30);
+            this.btnRenderToWebBrowser.Size = new System.Drawing.Size(270, 31);
             this.btnRenderToWebBrowser.TabIndex = 5;
             this.btnRenderToWebBrowser.Text = "Preview";
             this.btnRenderToWebBrowser.UseVisualStyleBackColor = true;
@@ -201,9 +201,9 @@ namespace ThemeGenerator
             this.btnSaveTemp.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSaveTemp.Location = new System.Drawing.Point(541, 3);
+            this.btnSaveTemp.Location = new System.Drawing.Point(553, 3);
             this.btnSaveTemp.Name = "btnSaveTemp";
-            this.btnSaveTemp.Size = new System.Drawing.Size(263, 30);
+            this.btnSaveTemp.Size = new System.Drawing.Size(269, 31);
             this.btnSaveTemp.TabIndex = 6;
             this.btnSaveTemp.Text = "Save";
             this.btnSaveTemp.UseVisualStyleBackColor = true;
@@ -216,10 +216,10 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbCSSLinks.FormattingEnabled = true;
             this.lbCSSLinks.HorizontalScrollbar = true;
-            this.lbCSSLinks.Location = new System.Drawing.Point(3, 62);
+            this.lbCSSLinks.Location = new System.Drawing.Point(3, 64);
             this.lbCSSLinks.Name = "lbCSSLinks";
             this.lbCSSLinks.ScrollAlwaysVisible = true;
-            this.lbCSSLinks.Size = new System.Drawing.Size(263, 134);
+            this.lbCSSLinks.Size = new System.Drawing.Size(269, 134);
             this.lbCSSLinks.TabIndex = 9;
             this.lbCSSLinks.SelectedIndexChanged += new System.EventHandler(this.lbCSSLinks_SelectedIndexChanged);
             // 
@@ -230,10 +230,10 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbJSLinks.FormattingEnabled = true;
             this.lbJSLinks.HorizontalScrollbar = true;
-            this.lbJSLinks.Location = new System.Drawing.Point(272, 62);
+            this.lbJSLinks.Location = new System.Drawing.Point(278, 64);
             this.lbJSLinks.Name = "lbJSLinks";
             this.lbJSLinks.ScrollAlwaysVisible = true;
-            this.lbJSLinks.Size = new System.Drawing.Size(263, 134);
+            this.lbJSLinks.Size = new System.Drawing.Size(269, 134);
             this.lbJSLinks.TabIndex = 11;
             this.lbJSLinks.SelectedIndexChanged += new System.EventHandler(this.lbJSLinks_SelectedIndexChanged);
             // 
@@ -241,9 +241,9 @@ namespace ThemeGenerator
             // 
             this.lblCSS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCSS.AutoSize = true;
-            this.lblCSS.Location = new System.Drawing.Point(3, 41);
+            this.lblCSS.Location = new System.Drawing.Point(3, 42);
             this.lblCSS.Name = "lblCSS";
-            this.lblCSS.Size = new System.Drawing.Size(263, 13);
+            this.lblCSS.Size = new System.Drawing.Size(269, 13);
             this.lblCSS.TabIndex = 8;
             this.lblCSS.Text = "CSS";
             this.lblCSS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -252,9 +252,9 @@ namespace ThemeGenerator
             // 
             this.lblJS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblJS.AutoSize = true;
-            this.lblJS.Location = new System.Drawing.Point(272, 41);
+            this.lblJS.Location = new System.Drawing.Point(278, 42);
             this.lblJS.Name = "lblJS";
-            this.lblJS.Size = new System.Drawing.Size(263, 13);
+            this.lblJS.Size = new System.Drawing.Size(269, 13);
             this.lblJS.TabIndex = 10;
             this.lblJS.Text = "JS";
             this.lblJS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -274,7 +274,7 @@ namespace ThemeGenerator
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(532, 30);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(544, 31);
             this.tableLayoutPanel4.TabIndex = 12;
             // 
             // panel1
@@ -289,17 +289,17 @@ namespace ThemeGenerator
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.chbInsLinksCJSCode);
             this.panel1.Controls.Add(this.chbAutoChange);
-            this.panel1.Location = new System.Drawing.Point(541, 39);
+            this.panel1.Location = new System.Drawing.Point(553, 40);
             this.panel1.Name = "panel1";
             this.tableLayoutPanel3.SetRowSpan(this.panel1, 3);
-            this.panel1.Size = new System.Drawing.Size(534, 203);
+            this.panel1.Size = new System.Drawing.Size(545, 212);
             this.panel1.TabIndex = 13;
             // 
             // chbActivateWebServer
             // 
             this.chbActivateWebServer.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.chbActivateWebServer.AutoSize = true;
-            this.chbActivateWebServer.Location = new System.Drawing.Point(378, 77);
+            this.chbActivateWebServer.Location = new System.Drawing.Point(389, 82);
             this.chbActivateWebServer.Name = "chbActivateWebServer";
             this.chbActivateWebServer.Size = new System.Drawing.Size(138, 17);
             this.chbActivateWebServer.TabIndex = 14;
@@ -311,7 +311,7 @@ namespace ThemeGenerator
             // 
             this.chbShowSourceCode.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.chbShowSourceCode.AutoSize = true;
-            this.chbShowSourceCode.Location = new System.Drawing.Point(21, 77);
+            this.chbShowSourceCode.Location = new System.Drawing.Point(21, 82);
             this.chbShowSourceCode.Name = "chbShowSourceCode";
             this.chbShowSourceCode.Size = new System.Drawing.Size(166, 17);
             this.chbShowSourceCode.TabIndex = 13;
@@ -322,7 +322,7 @@ namespace ThemeGenerator
             // btnOpenBrowser
             // 
             this.btnOpenBrowser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOpenBrowser.Location = new System.Drawing.Point(291, 19);
+            this.btnOpenBrowser.Location = new System.Drawing.Point(302, 19);
             this.btnOpenBrowser.Name = "btnOpenBrowser";
             this.btnOpenBrowser.Size = new System.Drawing.Size(225, 36);
             this.btnOpenBrowser.TabIndex = 12;
@@ -337,9 +337,9 @@ namespace ThemeGenerator
             this.groupBox1.Controls.Add(this.btnTempDemo2);
             this.groupBox1.Controls.Add(this.btnDefTemp);
             this.groupBox1.Controls.Add(this.btnTempDemo1);
-            this.groupBox1.Location = new System.Drawing.Point(11, 117);
+            this.groupBox1.Location = new System.Drawing.Point(11, 126);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(512, 76);
+            this.groupBox1.Size = new System.Drawing.Size(523, 76);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Templates";
@@ -347,7 +347,7 @@ namespace ThemeGenerator
             // btnTempDemo2
             // 
             this.btnTempDemo2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnTempDemo2.Location = new System.Drawing.Point(312, 27);
+            this.btnTempDemo2.Location = new System.Drawing.Point(323, 27);
             this.btnTempDemo2.Name = "btnTempDemo2";
             this.btnTempDemo2.Size = new System.Drawing.Size(194, 41);
             this.btnTempDemo2.TabIndex = 11;
@@ -369,7 +369,7 @@ namespace ThemeGenerator
             // btnTempDemo1
             // 
             this.btnTempDemo1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnTempDemo1.Location = new System.Drawing.Point(198, 27);
+            this.btnTempDemo1.Location = new System.Drawing.Point(203, 27);
             this.btnTempDemo1.Name = "btnTempDemo1";
             this.btnTempDemo1.Size = new System.Drawing.Size(108, 41);
             this.btnTempDemo1.TabIndex = 9;
@@ -392,7 +392,7 @@ namespace ThemeGenerator
             // 
             this.chbAutoChange.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chbAutoChange.AutoSize = true;
-            this.chbAutoChange.Location = new System.Drawing.Point(21, 16);
+            this.chbAutoChange.Location = new System.Drawing.Point(21, 21);
             this.chbAutoChange.Name = "chbAutoChange";
             this.chbAutoChange.Size = new System.Drawing.Size(88, 17);
             this.chbAutoChange.TabIndex = 7;
@@ -410,19 +410,19 @@ namespace ThemeGenerator
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel5.Controls.Add(this.tbAddCSSLink, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.btnAddCSSLink, 1, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 202);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 210);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(263, 40);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(269, 42);
             this.tableLayoutPanel5.TabIndex = 14;
             // 
             // tbAddCSSLink
             // 
             this.tbAddCSSLink.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbAddCSSLink.Location = new System.Drawing.Point(3, 10);
+            this.tbAddCSSLink.Location = new System.Drawing.Point(3, 11);
             this.tbAddCSSLink.Name = "tbAddCSSLink";
-            this.tbAddCSSLink.Size = new System.Drawing.Size(204, 20);
+            this.tbAddCSSLink.Size = new System.Drawing.Size(209, 20);
             this.tbAddCSSLink.TabIndex = 0;
             this.tbAddCSSLink.TextChanged += new System.EventHandler(this.tbAddCSSLink_TextChanged);
             // 
@@ -431,9 +431,9 @@ namespace ThemeGenerator
             this.btnAddCSSLink.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddCSSLink.Location = new System.Drawing.Point(213, 3);
+            this.btnAddCSSLink.Location = new System.Drawing.Point(218, 3);
             this.btnAddCSSLink.Name = "btnAddCSSLink";
-            this.btnAddCSSLink.Size = new System.Drawing.Size(47, 34);
+            this.btnAddCSSLink.Size = new System.Drawing.Size(48, 36);
             this.btnAddCSSLink.TabIndex = 1;
             this.btnAddCSSLink.Text = "Add";
             this.btnAddCSSLink.UseVisualStyleBackColor = true;
@@ -442,9 +442,9 @@ namespace ThemeGenerator
             // tbUrl
             // 
             this.tbUrl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbUrl.Location = new System.Drawing.Point(166, 9);
+            this.tbUrl.Location = new System.Drawing.Point(169, 10);
             this.tbUrl.Name = "tbUrl";
-            this.tbUrl.Size = new System.Drawing.Size(866, 20);
+            this.tbUrl.Size = new System.Drawing.Size(884, 20);
             this.tbUrl.TabIndex = 6;
             this.tbUrl.TextChanged += new System.EventHandler(this.tbUrl_TextChanged);
             // 
@@ -461,14 +461,14 @@ namespace ThemeGenerator
             this.tableLayoutPanel1.Controls.Add(this.gbOptions, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.webView, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.tbCode, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 1);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.355932F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 53.10735F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.50848F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1096, 708);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1119, 731);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
             // tableLayoutPanel2
@@ -488,7 +488,7 @@ namespace ThemeGenerator
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1090, 39);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1113, 40);
             this.tableLayoutPanel2.TabIndex = 8;
             // 
             // btnGo
@@ -496,9 +496,9 @@ namespace ThemeGenerator
             this.btnGo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGo.Location = new System.Drawing.Point(1038, 3);
+            this.btnGo.Location = new System.Drawing.Point(1059, 3);
             this.btnGo.Name = "btnGo";
-            this.btnGo.Size = new System.Drawing.Size(49, 33);
+            this.btnGo.Size = new System.Drawing.Size(51, 34);
             this.btnGo.TabIndex = 7;
             this.btnGo.Text = "Go";
             this.btnGo.UseVisualStyleBackColor = true;
@@ -565,9 +565,9 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.webView.CreationProperties = null;
-            this.webView.Location = new System.Drawing.Point(551, 48);
+            this.webView.Location = new System.Drawing.Point(562, 49);
             this.webView.Name = "webView";
-            this.webView.Size = new System.Drawing.Size(542, 370);
+            this.webView.Size = new System.Drawing.Size(554, 382);
             this.webView.TabIndex = 9;
             this.webView.Text = "webView";
             this.webView.ZoomFactor = 1D;
@@ -578,9 +578,9 @@ namespace ThemeGenerator
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCode.DetectUrls = false;
-            this.tbCode.Location = new System.Drawing.Point(3, 48);
+            this.tbCode.Location = new System.Drawing.Point(3, 49);
             this.tbCode.Name = "tbCode";
-            this.tbCode.Size = new System.Drawing.Size(542, 370);
+            this.tbCode.Size = new System.Drawing.Size(553, 382);
             this.tbCode.TabIndex = 10;
             this.tbCode.Text = "";
             this.tbCode.TextChanged += new System.EventHandler(this.tbCode_TextChanged);

@@ -299,12 +299,7 @@ namespace ThemeGenerator
 
         async void ReadWebContent(string url)
         {
-            //using (WebClient client = new WebClient())
-            //{
-            //    client.Proxy = null;
-            //    string htmlCode = client.DownloadString(url);
-            //    tbCode.Text = htmlCode;
-            //}
+            await PausaComTaskDelay();
 
             using (HttpClient client = new HttpClient())
             {
@@ -421,27 +416,54 @@ namespace ThemeGenerator
 
         private void btnTempDemo1_Click(object sender, EventArgs e)
         {
-            string projdir = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..")) + @"\assets\pages\bootstrap\blog\index.html";
+            string filedir = @"assets\pages\bootstrap\blog\index.html";
+            string projdir = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\.."));
 
-            tbUrl.Text = "file:///" + projdir;
+            if(chbActivateWebServer.Checked == true)
+            {
+                filedir = filedir.ToString().Replace(Path.DirectorySeparatorChar, '/');
+                tbUrl.Text = @"https://localhost:5001/" + filedir;
+            }
+            else
+            {
+                tbUrl.Text = @"file:///" + projdir + @"\" + filedir;
+            }
 
             LoadContent();
         }
 
         private void btnDefTemp_Click(object sender, EventArgs e)
         {
-            string projdir = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..")) + @"\assets\pages\mytemplate.html";
+            string filedir = @"assets\pages\mytemplate.html";
+            string projdir = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\.."));
 
-            tbUrl.Text = "file:///" + projdir;
+            if (chbActivateWebServer.Checked == true)
+            {
+                filedir = filedir.ToString().Replace(Path.DirectorySeparatorChar, '/');
+                tbUrl.Text = @"https://localhost:5001/" + filedir;
+            }
+            else
+            {
+                tbUrl.Text = @"file:///" + projdir + @"\" + filedir;
+            }
 
             LoadContent();
         }
 
         private void btnTempDemo2_Click(object sender, EventArgs e)
         {
-            string projdir = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..")) + @"\assets\pages\mdl\index.html";
+            string filedir = @"assets\pages\mdl\index.html";
+            string projdir = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\.."));
 
-            tbUrl.Text = "file:///" + projdir;
+            if (chbActivateWebServer.Checked == true)
+            {
+                filedir = filedir.ToString().Replace(Path.DirectorySeparatorChar, '/');
+                tbUrl.Text = @"https://localhost:5001/" + filedir;
+            }
+            else
+            {
+                tbUrl.Text = @"file:///" + projdir + @"\" + filedir;
+            }
 
             LoadContent();
         }
